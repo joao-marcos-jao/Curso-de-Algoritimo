@@ -1,4 +1,6 @@
 Algoritmo "aula8-atvd4"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 Var
    N1, N2, M: real

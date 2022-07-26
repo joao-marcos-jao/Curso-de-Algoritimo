@@ -1,4 +1,6 @@
 Algoritmo "aula9-atvd4"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 Var
    Salto, Contador, Valor: Inteiro

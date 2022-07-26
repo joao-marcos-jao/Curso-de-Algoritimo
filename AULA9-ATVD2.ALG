@@ -1,4 +1,6 @@
 Algoritmo "aula9-atvd2"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 Var
    Contador: Inteiro
