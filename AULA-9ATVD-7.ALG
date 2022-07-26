@@ -13,13 +13,13 @@ Inicio
       escreval ("Fim: ")
       leia (numerofinal)
       escreval ("---------------")
-      escreval ("   Contando")
+      escreval ("   Contando    ")
       escreval ("----------------")
       
       se (numeroinicial > numerofinal) entao
          contador <- numeroinicial
          enquanto (contador >= numerofinal) faca
-                  escreval (contador)
+                  escreva (contador)
                   contador <- contador - 1
          fimenquanto
 
@@ -30,6 +30,7 @@ Inicio
                     contador <- contador + 1
            fimenquanto
       fimse
+      escreval("")
       escreval ("Terminei de contar")
       
          
