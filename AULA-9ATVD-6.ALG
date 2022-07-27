@@ -17,6 +17,7 @@ Inicio
                 leia (Reais)
                 Dolares <- Reais/ 5.36
                  escreval (" O valor convertido em US$ ", Dolares:5:2)
+                 Cont <- Cont + 1
       fimenquanto
                  
       
