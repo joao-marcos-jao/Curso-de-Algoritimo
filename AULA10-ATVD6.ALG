@@ -1,4 +1,4 @@
-Algoritmo "aula10-atvd5"
+Algoritmo "aula10-atvd6"
 
 Var
    opcao: inteiro
@@ -33,7 +33,7 @@ Inicio
                escreval(contador)
                contador <- contador -1
 
-            ate (contador = 1)
+            ate (contador < 1)
 
          senao
 
