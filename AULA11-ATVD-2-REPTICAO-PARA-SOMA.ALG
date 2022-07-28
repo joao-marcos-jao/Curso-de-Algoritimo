@@ -1,19 +1,29 @@
-Algoritmo "aula11-atvd-2-repticao-para-soma"
+Algoritmo "aula11-atvd-fibonacci"
 
 Var
    contador: inteiro
-   soma: inteiro
-   numero: inteiro
+   f1:inteiro
+   f2: inteiro
+   f3: inteiro
+   fibonacci: inteiro
 
 
 Inicio
-   soma <- 0
-   para contador <- 1 ate 10 faca
-      escreval ("Digite um valor: ")
-      leia (numero)
-      soma <- soma + numero
+   f1<-0
+   f2 <-0
+   f3<-1
+   para contador <- 0 ate 15 faca
+      fibonacci <- f2 +f3
+      f1<-f2
+      f2<-f3
+      f3<-fibonacci
+
+      escreva (f1)
+
+
+
    fimpara
-   escreval (" A soma dos vcalores é ", soma)
+
 
 
 
