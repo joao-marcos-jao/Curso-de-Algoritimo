@@ -1,8 +1,4 @@
-Algoritmo "aula13-analisador-strings"
-Var
-   nome: caractere
-   c :inteiro
-
+Algoritmo
 
 
 Inicio
