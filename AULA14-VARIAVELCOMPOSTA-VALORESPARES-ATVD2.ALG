@@ -11,16 +11,16 @@ Inicio
    para contador <- 1 ate 10 faca
       escreva (" Digite o ", contador, "° valor: ")
       leia (valor[contador])
-      se (valor [contador]% 2= 0) entao
-         totalpar <- totalpar + 1
-      fimse
+
    fimpara
-   escreval(" O tato de par é ", totalpar)
+
    para contador <- 1 ate 10 faca
       se (valor [contador] % 2 = 0) entao
+      totalpar <- totalpar + 1
          escreval(" O valor para na posição ", contador)
       fimse
    fimpara
+    escreval(" O total de par é ", totalpar)
 
 
 
