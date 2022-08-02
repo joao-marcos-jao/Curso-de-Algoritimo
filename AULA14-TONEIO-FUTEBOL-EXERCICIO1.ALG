@@ -28,19 +28,26 @@ Inicio
 
 
    para c <-1 ate 3 faca
-   para  f <- 1 ate 3 faca
-   se (time[c] <> time[f]) entao
-    timecasa[j]<- time[c]
-    timefora[j]<- time[f]
-    j <-j+ 1
-    f <- f+1
-    
-    fimse
+      para  f <- 1 ate 3 faca
+         se (time[c] <> time[f]) entao
+            timecasa[j]<- time[c]
+            timefora[j]<- time[f]
+            j <-j+ 1
+            f <- f+1
+
+         fimse
 
 
-    fimpara
+      fimpara
 
    fimpara
+   escreval (" TORNEIO DE FUTEBOL")
+   ESCREVAL ("--------------------")
+   PARA j <- 1 ate 6 faca
+   escreval (timecasa[j]:12, "[ ]":10, "[ ]":6, timefora[j])
+   fimpara
+
+
 
 
 
