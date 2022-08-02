@@ -51,7 +51,7 @@ Inicio
      totalNotas <-totalNotas + notasAluno[j]
      media <- totalNotas/ j
      fimpara
-   escreval (" Média da turma: ", media)
+   escreval (" Média da turma: ", media:4:1)
    
 
 Fimalgoritmo
