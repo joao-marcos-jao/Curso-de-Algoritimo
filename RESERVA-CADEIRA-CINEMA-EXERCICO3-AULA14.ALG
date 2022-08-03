@@ -27,10 +27,10 @@ inicio
       se (FileiraB[i] = 1) entao
          escreva ("---")
       senao
-        escreva ("[B", i, "] ")
+         escreva ("[B", i, "] ")
       fimse
-      fimpara
-      escreval ()
+   fimpara
+   escreval ()
 fimprocedimento
 
 
@@ -39,12 +39,17 @@ Inicio
    repita
       imprimir(i)
       Reservar()
+
+
       escreval("Quer continuar?[S/N] ")
       leia(resposta )
+      
 
-     limpatela
+
+      limpatela
+
    ate (resposta="n")
-   
+
 
 
 
