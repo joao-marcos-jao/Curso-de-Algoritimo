@@ -14,9 +14,17 @@ procedimento Reservar()
 Var
 
 inicio
+
    escreva("reservar cadeira: B")
    leia(cadeira)
-   FileiraB[cadeira] <- 1
+
+   se (FileiraB[cadeira] = 1) entao
+      escreval("Lugar oucupado!")
+      escreval ("Quer escolher outro lugar? [S/N] ")
+      leia (resposta)
+   senao
+    FileiraB[cadeira] <- 1
+      fimse
 
 fimprocedimento
 
@@ -30,6 +38,7 @@ inicio
          escreva ("[B", i, "] ")
       fimse
    fimpara
+
    escreval ()
 fimprocedimento
 
@@ -43,7 +52,7 @@ Inicio
 
       escreval("Quer continuar?[S/N] ")
       leia(resposta )
-      
+
 
 
       limpatela
