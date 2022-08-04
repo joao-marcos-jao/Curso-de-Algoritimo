@@ -35,15 +35,15 @@ Inicio
    fimpara
 
    para Linha <-1 ate 4 faca
-      se ( matrize[Linha, 3] > maior3coluna) entao
-         maior3coluna <-  matrize[Linha, 3]
+      se ( matrize[Linha, 3] > maior3colunal) entao
+         maior3colunal <-  matrize[Linha, 3]
       fimse
    fimpara
 
 
    escreval(" A soma da diagonal principal é : ", sdp)
    escreval (" O Produto dos Valores  da segunda linha é: ", p2l)
-   escreval(" O maior da terceira coluna é: ", maior3coluna )
+   escreval(" O maior da terceira coluna é: ", maior3colunal )
 
 
 
