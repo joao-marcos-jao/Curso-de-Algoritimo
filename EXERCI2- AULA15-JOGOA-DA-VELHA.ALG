@@ -41,6 +41,8 @@ Inicio
                L <- 1
                se (Jogo[L, op] = "x") ou (Jogo[L, op]= "0") entao
                   escreval ( "Esse número ja está preenchido")
+                  escreval ("Aperte Enter para continuar")
+                  leia (a)
                senao
                   Jogo [L, op] <- x
                   CodRepitido()
@@ -51,6 +53,8 @@ Inicio
                   L <- 2
                   se (Jogo [L,op-3]= "x") ou (Jogo[L,op-3]= "0") entao
                      escreval ( "Esse número ja está preenchido")
+                     escreval ("Aperte Enter para continuar")
+                     leia (a)
                   senao
                      Jogo[L,op-3] <- x
                      CodRepitido()
@@ -60,6 +64,8 @@ Inicio
                   L <- 3
                   se (Jogo[L,op-6] = "x") ou (Jogo[L,op-6] = "0") entao
                      escreval ("Esse número ja está preenchido")
+                     escreval ("Aperte Enter para continuar")
+                     leia (a)
                   senao
                      Jogo[L,op - 6] <- x
                      CodRepitido()
@@ -70,6 +76,7 @@ Inicio
             //----------------------------------------------------------------
          senao
             escreval (" Opção Inválida")
+            escreval ("Aperte Enter para continuar")
             leia (a)
          fimse
          limpatela
